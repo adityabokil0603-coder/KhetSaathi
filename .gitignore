@@ -1,0 +1,27 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local configuration
+/config/local.php
+
+# PHP dependencies
+/vendor/
+
+# Logs
+/storage/logs/*
+!/storage/logs/.gitkeep
+
+# Local database backups and dumps
+*.sql
+*.sql.gz
+*.dump
+*.bak
+
+# Temporary and debug files
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
